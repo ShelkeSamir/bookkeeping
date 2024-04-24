@@ -1,0 +1,25 @@
+for @Restcontroller,@RequestMapping
+
+    <dependency>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-web</artifactId>
+    </dependency>
+    
+    
+---------------------------------------------------------
+
+mongo db connection
+
+<dependency>
+			<groupId>org.springframework.data</groupId>
+			<artifactId>spring-data-mongodb</artifactId>
+		</dependency>
+   
+--------------------------------------------------------
+for getter setter with annotations
+
+<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<optional>true</optional>
+		</dependency>
